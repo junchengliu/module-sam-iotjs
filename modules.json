@@ -1,0 +1,11 @@
+{
+    "modules": {
+        "print": {
+            "native_files": [
+                "print/print-module.c"
+            ],
+            "init": "InitPrintNativeModule",
+            "cmakefile": "print/print-module.cmake"
+        }
+    }
+}
